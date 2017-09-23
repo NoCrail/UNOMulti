@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="net.home.nocrail.unomulti">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,7 +21,8 @@
         <activity
             android:name=".Serv"
             android:label="@string/title_activity_serv"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Client"></activity>
     </application>
 
 </manifest>

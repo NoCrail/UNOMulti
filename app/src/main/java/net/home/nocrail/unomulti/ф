@@ -1,0 +1,15 @@
+/*fire.child("Card").addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                userid = dataSnapshot.toString();
+                Toast.makeText(Serv.this, userid, Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });*/
+
+        //Toast.makeText(this, String.valueOf(cards.size()), Toast.LENGTH_SHORT).show();
+        //fire.child("Card").child(userid).setValue(Card);
